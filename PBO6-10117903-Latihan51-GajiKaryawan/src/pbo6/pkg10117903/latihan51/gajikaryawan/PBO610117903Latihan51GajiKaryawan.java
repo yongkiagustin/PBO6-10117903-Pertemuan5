@@ -6,10 +6,13 @@
 package pbo6.pkg10117903.latihan51.gajikaryawan;
 
 import java.util.Scanner;
-
 /**
- *
- * @author yongki
+ * @author Yongki
+ * NAMA         : Yongki Agustin
+ * KELAS        : PBO6
+ * NIM          : 10117903
+ * Deskripsi Program : Program ini berisi program untuk menhitung 
+ * gaji karyawan.
  */
 public class PBO610117903Latihan51GajiKaryawan {
 

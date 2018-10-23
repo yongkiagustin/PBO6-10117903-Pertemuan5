@@ -4,10 +4,12 @@
  * and open the template in the editor.
  */
 package pbo6.pkg10117903.latihan51.gajikaryawan;
-
 /**
- *
- * @author yongki
+ * @author Yongki
+ * NAMA         : Yongki Agustin
+ * KELAS        : PBO6
+ * NIM          : 10117903
+ * Deskripsi Program : Program ini berisi fungsi parent dari manager
  */
 public class karyawan {
     protected String nik, nama, jabatan;

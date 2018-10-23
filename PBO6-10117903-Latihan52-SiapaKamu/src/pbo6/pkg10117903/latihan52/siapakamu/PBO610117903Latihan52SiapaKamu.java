@@ -4,10 +4,13 @@
  * and open the template in the editor.
  */
 package pbo6.pkg10117903.latihan52.siapakamu;
-
 /**
- *
- * @author yongki
+ * @author Yongki
+ * NAMA         : Yongki Agustin
+ * KELAS        : PBO6
+ * NIM          : 10117903
+ * Deskripsi Program : Program ini berisi program untuk menampilkan fungsi 
+ * yang di overriding
  */
 public class PBO610117903Latihan52SiapaKamu {
 
