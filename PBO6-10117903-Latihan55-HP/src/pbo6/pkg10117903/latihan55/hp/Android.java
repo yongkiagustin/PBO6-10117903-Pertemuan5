@@ -23,7 +23,7 @@ public class Android extends HP {
     }
 
     public void setKeyStore(String keyStore) {
-        this.keyStore = "2121";
+        this.keyStore = keyStore;
     }
 
 //    public void displayProduct(){
@@ -32,10 +32,10 @@ public class Android extends HP {
     @Override
     public void displayProduct() {
 
-        System.out.println("Manufacture \t: " + this.manufacture);
-        System.out.println("OS \t\t: " + this.OS);
-        System.out.println("Model \t\t: " + this.model);
-        System.out.println("Key Store "+getKeyStore());
+        System.out.println("Manufacture \t\t: " + this.manufacture);
+        System.out.println("OS \t\t\t: " + this.OS);
+        System.out.println("Model \t\t\t: " + this.model);
+        System.out.print("Android Key Store \t: "+getKeyStore());
         
     }
 }

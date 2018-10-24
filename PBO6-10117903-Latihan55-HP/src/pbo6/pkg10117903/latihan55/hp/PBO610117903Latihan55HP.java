@@ -16,16 +16,25 @@ public class PBO610117903Latihan55HP {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        HP andro;
-        HP hp;
-        hp = new HP("1", "2", "3", 0);
-        hp.displayProduct();
+        Android andro;
+        BB bb;
+        WP wp;
+        andro = new Android("Samsung", "Android", "Grand", 3000000);
+        andro.setKeyStore("234ibfd3840fo");
+        andro.displayProduct();
         System.out.println("");
         
-        andro = new Android("3213", "And", "Grand", 30000);
-        andro.displayProduct();
-        System.out.println(""+((Android)andro).getKeyStore());
+
+        bb = new BB("BlackB", "RIM", "Curve", 2000000);
+        bb.setPinBB("7828ab23");
+        bb.displayProduct();
+        System.out.println("");
+        
+        wp = new WP("Nokia", "Win8", "Lumia", 1000000);
+        wp.setWpKeyStore("UUUQIJWORJ");
+        wp.displayProduct();
+        
         
     }
-    
+
 }
