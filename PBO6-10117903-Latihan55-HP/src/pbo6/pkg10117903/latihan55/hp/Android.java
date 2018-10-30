@@ -9,7 +9,7 @@ package pbo6.pkg10117903.latihan55.hp;
  *
  * @author yongki
  */
-public class Android extends HP {
+public class Android extends Handphone {
 
     private String keyStore;
 
@@ -32,10 +32,11 @@ public class Android extends HP {
     @Override
     public void displayProduct() {
 
-        System.out.println("Manufacture \t\t: " + this.manufacture);
-        System.out.println("OS \t\t\t: " + this.OS);
-        System.out.println("Model \t\t\t: " + this.model);
-        System.out.print("Android Key Store \t: "+getKeyStore());
+        System.out.println("Manufacture \t: " + this.manufacture);
+        System.out.println("OS \t\t: " + this.OS);
+        System.out.println("Model \t\t: " + this.model);
+        System.out.println("Key Store \t: "+getKeyStore());
+        
         
     }
 }

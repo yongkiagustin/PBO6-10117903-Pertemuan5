@@ -9,7 +9,7 @@ package pbo6.pkg10117903.latihan55.hp;
  *
  * @author yongki
  */
-public class BB extends HP {
+public class BB extends Handphone {
 
     private String pinBB;
 

@@ -23,7 +23,6 @@ public class PBO610117903Latihan55HP {
         andro.setKeyStore("234ibfd3840fo");
         andro.displayProduct();
         System.out.println("");
-        
 
         bb = new BB("BlackB", "RIM", "Curve", 2000000);
         bb.setPinBB("7828ab23");

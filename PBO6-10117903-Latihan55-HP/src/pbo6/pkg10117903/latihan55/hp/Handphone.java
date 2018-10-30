@@ -9,11 +9,11 @@ package pbo6.pkg10117903.latihan55.hp;
  *
  * @author yongki
  */
-public class HP {
+public class Handphone {
     protected String manufacture, OS, model;
     protected int harga;
 
-    public HP(String man, String OS, String model, int harga) {
+    public Handphone(String man, String OS, String model, int harga) {
         this.manufacture = man;
         this.OS = OS;
         this.model = model;
